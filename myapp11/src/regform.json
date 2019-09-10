@@ -1,0 +1,67 @@
+{
+  "posts": [
+    {
+      "user": {
+        "name": "kedar",
+        "employeeid": "713244",
+        "age": "28",
+        "address": "Grihalakshmi apartments"
+      },
+      "id": 1
+    },
+    {
+      "user": {
+        "name": "Lakshman",
+        "employeeid": "722094",
+        "age": "27",
+        "address": "Nagavara"
+      },
+      "id": 2
+    },
+    {
+      "emp": {
+        "firstname": "lakshman",
+        "lastname": "n",
+        "city": "bangalore",
+        "contact": "23233"
+      },
+      "id": 3
+    },
+    {
+      "emp": {
+        "firstname": "",
+        "lastname": "n",
+        "city": "bangalore",
+        "contact": "23233"
+      },
+      "id": 4
+    },
+    {
+      "emp": {
+        "firstname": "",
+        "lastname": "",
+        "city": "Sidney",
+        "contact": "123433434"
+      },
+      "id": 5
+    },
+    {
+      "emp": {
+        "firstname": "lakshman",
+        "lastname": "n",
+        "city": "bangalore",
+        "contact": "23233"
+      },
+      "id": 6
+    },
+    {
+      "emp": {
+        "firstname": "ew",
+        "lastname": "wee",
+        "city": "wew",
+        "contact": "23233"
+      },
+      "id": 7
+    }
+  ]
+}
