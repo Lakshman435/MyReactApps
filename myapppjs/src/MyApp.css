@@ -1,0 +1,88 @@
+
+.MyApp {
+    text-align: center;
+  }
+  
+
+  
+  .Myimg-logo {
+    animation: App-logo-spin infinite 20s linear;
+    height: 200px;
+  }
+  
+  .MyApp-header {
+    background-color: #222;
+    height: 50px;
+    padding: 20px;
+    color: pink;
+  }
+  
+  
+  .MyApp-title {
+    font-size: 1.5em;
+  }
+  
+  
+  .Header{
+    background-color: #222;
+    height: 50px;
+    padding: 20px;
+    color: pink;
+    
+
+  }
+  .content{
+    float: left;
+    border:1px solid black;
+    width: 40%;
+    height: 700px; /* only for demonstration, should be removed */
+    background: whitesmoke;
+    padding: 20px;
+
+  }
+  .rightcontent{
+    float: left;
+    border:1px solid black;
+    width: 50%;
+    height: 700px; /* only for demonstration, should be removed */
+    background: whitesmoke;
+    padding: 20px;
+  }
+
+  .Details-section{
+    
+    border:1px solid black;
+    height:100px;
+  }
+  
+    .Details-nav {
+        float: left;
+        width: 40%;
+        height: 700px; /* only for demonstration, should be removed */
+        background: whitesmoke;
+        padding: 20px;
+    }
+    .MyApp-article {
+        float: right;
+        padding: 20px;
+        width: 50%;
+        background-color: pink;
+        height: 500px;
+       /* only for demonstration, should be removed */
+    }
+    
+
+  .footer {
+    background-color:grey;
+    width:100%;
+    height:130px;
+    bottom:0%; 
+    margin-top: -1px;
+    position:fixed;
+}
+
+
+
+
+    
+  
