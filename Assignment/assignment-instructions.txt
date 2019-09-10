@@ -1,0 +1,22 @@
+1. Home Page : It should contain two components such as image component, Employee details.
+
+2. Registration Page : Take any sample registration form and implement it with basic validation.
+
+Submit the data using the Data to back end using AXios library.
+
+3. Fetch Data : Use the get method to get the data from sample REST API / JSON
+
+4. Contactlist with Redux : Create a list of contacts and click on particular link we need to get the detail contact.
+
+The above assignement will cover the following
+
+1. Creation of components
+
+2. Sending data from stateful component to dumb components
+
+3. Basic routing in react js
+
+4. Fetching the data from the server
+
+5. Posting the data using the REST API
+ 
