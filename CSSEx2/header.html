@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <style>
+      body {
+        margin: 0;
+      }
+      div {
+        background-color: #dadada;
+      }
+      nav {
+        display: flex;
+        align-items: center;
+        margin-left: 10px;
+      }
+
+      a {
+        padding: 10px;
+        text-decoration: none;
+        font-size: 20px;
+        color: #333;
+        font-weight: 200;
+      }
+      a.logo,
+      a.logo:hover {
+        padding: 0px;
+        background-color: none;
+      }
+      a:hover {
+        padding: 10px;
+        color: white;
+        background-color: grey;
+      }
+
+      span.telstra-logo {
+        display: flex;
+        width: 30px;
+        height: 30px;
+        /* display: inline-block; */
+        background-image: url("https://www.telstra.com.au/etc/designs/tcom/tcom-core/img/telstra/telstra-logo.png");
+      }
+
+      #search {
+        padding: 5px;
+        margin-left: 36rem;
+        width: 18%;
+      }
+      .btn {
+        margin: 3px;
+        padding: 7px;
+        background-color: brown;
+        color: white;
+        border: none;
+        width: 5%;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <nav>
+        <a class="logo" href="https://www.telstra.com.au/" title="Telstra">
+          <span class="telstra-logo"></span>
+        </a>
+        <a href="/html/">Home</a>
+        <a href="/css/">Contact</a>
+        <a href="/js/">About US</a>
+        <a href="/reactjs/">Docs</a>
+
+        <input type="search" name"search" placeholder= "Search" id ="search">
+        <button class="btn">search</button>
+      </nav>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,78 @@
+.navigationBars {
+  background-color: dodgerblue;
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  /* border: 1px solid grey; */
+  font-size: 1.5rem;
+  overflow: hidden;
+}
+ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+li {
+  /* display: inline; */
+  /* font-size: 1.5rem;
+  padding: 10px; */
+  float: left;
+  /* border-right: 1px solid whitesmoke; */
+}
+li:last-child {
+  border-right: none;
+}
+.signin,
+.docs {
+  float: right;
+}
+
+li a,
+.dropbtn {
+  display: block;
+  text-align: center;
+  padding: 14px 15px;
+  text-decoration: none;
+  color: white;
+}
+li a:hover {
+  /* text-decoration: underline; */
+  background-color: grey;
+}
+
+/* li.dropdown {
+  display: block;
+}
+ .dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+} */
+
+@media screen and (max-width: 600px) {
+  .navigationBars li {
+    float: none;
+    font-size: 2rem;
+  }
+  li a:hover {
+    background-color: burlywood;
+  }
+}

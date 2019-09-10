@@ -1,0 +1,137 @@
+.name {
+  background-color: rgb(142, 174, 206);
+  color: whitesmoke;
+  border: 2px solid orangered;
+  font-family: verdana;
+  padding: 30px;
+}
+/* a:link {
+  color: olivedrab;
+  text-decoration: none;
+  background-color: transparent;
+}
+a:hover {
+  color:red;
+  text-decoration: underline;
+  background-color: blue;
+  padding: 10px;
+} */
+.menu {
+  background-color: cadetblue;
+  padding: 20px;
+}
+.navList {
+  display: flex;
+  flex-direction: row;
+}
+/* .navList1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+} */
+/* a,
+a:link {
+  text-decoration: none;
+  font-size: 1.5rem;
+  margin-right: 16px;
+}
+/* a:hover {
+  background-color: whitesmoke;
+} 
+a:active {
+  /* background-color: dodgerblue 
+  background-color: whitesmoke;
+  color: white;
+}
+#signin {
+  margin-left: 51rem;
+} */
+img {
+  width: 100%;
+}
+p {
+  background-image: url("../../images//lakshman11.jpg");
+}
+#company {
+  font-family: Arial, Helvetica, sans-serif;
+  /* border: 2px solid green; */
+  border-collapse: collapse;
+  width: 50%;
+}
+#company tr:nth-child(even) {
+  background-color: #eee;
+}
+#company tr:nth-child(odd) {
+  background-color: #fff;
+}
+#company th {
+  background-color: crimson;
+  color: white;
+}
+#rows th {
+  background-color: coral;
+}
+td,
+th {
+  text-align: left;
+  border: 1px solid green;
+  padding: 10px;
+}
+#rows,
+#savings {
+  border-collapse: collapse;
+  border: 1px solid green;
+  width: 50%;
+}
+thead {
+  color: green;
+}
+tbody {
+  color: blue;
+}
+.navigationMenu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  font-size: 10px;
+  overflow: hidden;
+  background-color: grey;
+}
+.navLink {
+  float: left;
+  padding: 1rem;
+}
+.signin {
+  float: right;
+  padding: 1rem;
+}
+.signin,
+a {
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+a:hover {
+  background-color: green;
+}
+
+.cities {
+  background-color: cyan;
+  margin: 10px;
+  padding: 10px;
+}
+.note {
+  font-size: 2rem;
+  color: darkgoldenrod;
+}
+.inlineel {
+  margin: 10px;
+}
+.navtechList {
+  background-color: aqua;
+  padding: 20px;
+  margin: 10px;
+}
+
+a {
+  padding: 10px;
+}

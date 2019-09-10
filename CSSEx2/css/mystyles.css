@@ -1,0 +1,266 @@
+.container {
+  background-color: lightblue;
+  max-width: 1200px;
+  margin: auto;
+  padding: 5px;
+  border: 1px solid gold;
+}
+.header {
+  color: white;
+  text-align: center;
+  margin-left: 20px;
+  border: 2px solid violet;
+}
+.para {
+  color: white;
+  text-align: center;
+  background-color: yellowgreen;
+  padding: 10px;
+  margin-left: 20px;
+}
+.text {
+  color: white;
+  text-align: center;
+  border: 3px solid goldenrod;
+}
+.showText {
+  color: orangered;
+  border-bottom: 4px solid red;
+  /* border-bottom-width: thin; */
+  background-color: aquamarine;
+  /* border-style: solid;
+  border-color: red;
+  border-width: 5px; */
+  margin: 10px;
+  padding: 10px;
+  font-size: 2rem;
+}
+.padding {
+  color: royalblue;
+  border: 1px solid black;
+  padding: 20px;
+  text-align: center;
+  margin: 10px;
+}
+.hw {
+  height: 100px;
+  width: 300px;
+  background-color: azure;
+  padding: 10px;
+  text-align: center;
+}
+.boxModel {
+  width: 300px;
+  border: 10px solid green;
+  padding: 20px;
+  margin: 10px;
+}
+.outline {
+  border: 2px dashed black;
+  outline-style: solid;
+  outline-color: red;
+  margin: 10px;
+}
+.textstyles {
+  border: 1px solid darkkhaki;
+  text-align: justify;
+  padding: 10px;
+  width: 300px;
+  text-transform: capitalize;
+  text-indent: 3px;
+}
+.lineHeight {
+  line-height: 1.8;
+}
+.normal {
+  font-style: normal;
+  font-size: 2em;
+  font-weight: 900;
+}
+.oblique {
+  font-style: oblique;
+  font-variant: small-caps;
+}
+a:link {
+  color: red;
+  font-style: italic;
+  font-size: 1.5rem;
+  background-color: aqua;
+  border: 1px solid black;
+  text-decoration: none;
+  padding: 10px;
+  text-align: center;
+}
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  color: green;
+  background-color: brown;
+  text-decoration: underline;
+}
+a:active {
+  color: aliceblue;
+}
+.unList {
+  list-style-type: none;
+  list-style-position: inside;
+  font-weight: bold;
+}
+ul li {
+  background-color: blueviolet;
+  padding: 5px;
+}
+#customers {
+  border-collapse: collapse;
+  width: 50%;
+  margin: 10px;
+}
+#customers th,
+td {
+  /* border: 2px solid goldenrod; */
+  border-bottom: 2px solid red;
+  padding: 7px;
+}
+#customers td {
+  vertical-align: bottom;
+}
+#customers th {
+  text-align: left;
+  background-color: chartreuse;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  font-size: 1.25rem;
+  height: 50%;
+}
+#customers tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+#customers tr:hover {
+  background-color: #ddd;
+}
+.responsiveTable {
+  overflow-x: auto;
+}
+.uiTech {
+  display: inline;
+}
+/* .normalWidth {
+  width: 500px;
+  margin: auto;
+  border: 3px solid #73ad21;
+} */
+.maxWidth {
+  max-width: 500px;
+  margin: auto;
+  border: 3px solid #73ad21;
+}
+.Position {
+  border: 2px solid green;
+  /* width: 500px; */
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  background-color: cornflowerblue;
+  padding: 10px;
+  width: 300px;
+  height: 200px;
+}
+.absolute {
+  position: absolute;
+  top: 80px;
+  left: 0;
+  width: 200px;
+  height: 100px;
+  border: 3px solid #73ad21;
+}
+.overflow {
+  width: 200px;
+  height: 50px;
+  background-color: #eee;
+  border: 1px dotted black;
+  overflow: auto;
+}
+.float {
+  width: 200px;
+  height: 50px;
+  float: right;
+  border: 2px solid black;
+  overflow: auto;
+}
+.nav {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  padding: 5px;
+  border: 1px solid black;
+  background-color: yellow;
+}
+.list {
+  display: inline-block;
+  background-color: #73ad21;
+}
+.center {
+  margin: auto;
+  width: 30%;
+  border: 3px solid #73ad21;
+  padding: 10px;
+  text-align: center;
+}
+.font {
+  font-weight: 800;
+}
+.floatRL {
+  width: 50%;
+  border: 2px solid brown;
+  float: right;
+  padding: 10px;
+  text-align: center;
+  text-transform: capitalize;
+  margin: 10px;
+}
+.pseduo {
+  border: 2px solid brown;
+  padding: 10px;
+  color: text;
+  text-align: center;
+  background-color: #73ad21;
+}
+div.pseduo:hover {
+  background-color: chocolate;
+}
+p.firstLine::first-letter {
+  color: red;
+  font-variant: small-caps;
+}
+p.firstLine::first-line {
+  color: blueviolet;
+  font-variant: small-caps;
+}
+p.firstLine::before {
+  content: url("https://www.w3schools.com/css/css_pseudo_elements.asp");
+}
+::selection {
+  color: red;
+  background-color: yellow;
+}
+p.nthchild:nth-child(odd) {
+  background-color: crimson;
+}
+p.nthchild:nth-child(even) {
+  background-color: burlywood;
+}
+div.opacity {
+  background-color: #4caf50;
+  padding: 10px;
+}
+
+div.opacityFirst {
+  opacity: 0.1;
+  filter: alpha(opacity=10);
+}
+
+.opacityFirst {
+  opacity: 0.2;
+  filter: alpha(opacity=30);
+}

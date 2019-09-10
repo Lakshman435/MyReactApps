@@ -1,0 +1,93 @@
+body {
+  background-color: #3f2016;
+}
+.container {
+  max-width: 1444px !important;
+  margin: 0 auto !important;
+}
+.mainBody {
+  min-height: 70vh;
+  padding: 10px;
+  font-weight: 0.9375rem;
+}
+.logo {
+  color: white;
+  font-size: 35px;
+  margin-bottom: 13px;
+  font-weight: bold;
+}
+.menu {
+  display: flex;
+  flex-direction: row;
+  background-color: #351a11;
+  color: white;
+  padding: 10px;
+}
+.home,
+.about,
+.services,
+.contact {
+  padding: 10px;
+  font-size: 1.25rem;
+}
+.line {
+  border-right: 2px solid white;
+  margin-left: 20px;
+}
+.header {
+  background-color: #8ea585;
+  padding: 40px;
+  margin-top: 10px;
+}
+.headerStyle {
+  color: white;
+  font-size: -13.75rem;
+  padding-left: 8.25rem;
+  display: flex;
+  flex-direction: column;
+  width: 24%;
+}
+.headerTitle {
+  font-weight: bold;
+  margin-bottom: auto;
+}
+.content {
+  background-color: cyan;
+  display: flex;
+  height: 80vh;
+  margin-top: 12px;
+}
+.leftContent {
+  background-color: #9baeac;
+  width: 20%;
+}
+.leftlinks {
+  margin-top: 4.25rem;
+  margin-left: 2.25rem;
+  font-size: 20px;
+  color: white;
+}
+.leftlink1,
+.leftlink2,
+.leftlink3,
+.leftlink4 {
+  margin-bottom: 1rem;
+}
+.borderLinks {
+  border-bottom: 1px solid whitesmoke;
+  margin-top: 13px;
+  width: 72%;
+}
+.rightcontent {
+  background-color: #dad8c7;
+  width: 80%;
+}
+.rightContentTitle {
+  color: #748282;
+  margin-left: 4rem;
+}
+.demo {
+  margin-left: 4rem;
+  margin-right: 10rem;
+  font-size: 1.25rem;
+}
